@@ -1,0 +1,44 @@
+body, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.telefono {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.telefono h1, .telefono h2, .telefono h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.telefono h2 {
+    font-size: 20px;
+}
+
+.telefono h3 {
+    font-size: 18px;
+}
+
+.telefono h1 {
+    font-weight: bold;
+}
+
+.telefono h2, .telefono h3 {
+    color: #666;
+}

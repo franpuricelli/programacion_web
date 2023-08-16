@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ejemplo</title>
+</head>
+<body>
+    <form>
+        DNI: <input type="text" name="DNI"  maxlength="8" required> <br>
+        Nombre: <input type="text" name="nombre"  maxlength="20"> <br>
+        Apellido: <input type="text" name="apellido" placeholder="Ingrese su apellido" required> <br>
+        Fecha de nacimiento: <input type="date" name="fechanac" id="" required><br>
+        <br>
+        <select name="ciudad" id="" required>
+            <option value="caba">CABA</option>
+            <option value="prov">Provincia Bs As</option>
+            <option value="rionegro">Rio Negro</option>
+        </select>
+        <br><br>
+        <label for="comentarios">Ingrese comentarios</label><br><textarea name="comentarios" id="" cols="30" rows="10" placeholder="comentarios"></textarea>
+        <input type="submit" value="guardar">
+    </form>
+</body>
