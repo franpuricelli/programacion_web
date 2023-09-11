@@ -1,0 +1,129 @@
+
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    flex-direction: row;
+    background-color: #7a7a7a;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    
+}
+
+.img_cafe{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.pedir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 65px;
+    background-color: #5d5d5d;
+    border-radius: 5px;
+    margin-right: 15px;
+
+}
+.pedir:hover{
+    background-color: #fff;
+}
+.pedir a{
+    color: #ddd;
+}
+
+.subtitulo{
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+.subtitulo p{font-size: 36px;}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 20px 0;
+    
+    
+    
+}
+
+/*.expresso, .doble, .flash, .mocha, .cappuccino.grow { transition: all .2s ease-in-out; }*/
+.expresso:hover, .doble:hover, .flash:hover, .mocha:hover, .cappuccino:hover {transform: scale(1.05);}
+
+.expresso, .doble, .flash, .mocha, .cappuccino {
+    background-color: #fff;
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.expresso h2, .doble h2, .flash h2, .mocha h2, .cappuccino h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.expresso p, .doble p, .flash p, .mocha p, .cappuccino p {
+    font-size: 16px;
+    color: #666;
+}
+
+.pedidos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pedidos h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pedidos a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pedidos a:hover {
+    background-color: #555;
+}
